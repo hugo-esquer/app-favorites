@@ -54,10 +54,18 @@ section{
     border-bottom: #f5f6f7 solid 1px;
     margin: 1%;
 }
+
 img{
     border-radius: 10px;
     margin: 2%;
 }
+
+
+h2{
+    text-align: center;
+    margin: 1%;
+}
+
 
 /*---------------------main home----------------------*/
 
@@ -86,7 +94,9 @@ figcaption{
 }
 
 /*-----------------------Waze----------------------*/
-
+.waze{
+    background-color: #33CCFF;
+}
 #main-waze{
     display: flex;
     flex-direction: column;
@@ -105,12 +115,14 @@ figcaption{
 .head img{
     width: 200px;
     border-radius: 30px;
+    margin: 20px;
 }
 
-h2{
-    text-align: center;
-    margin: 1%;
+.nom img{
+    width: 150px;
+    border-radius: 0;
 }
+
  section{
     width: 70%;
  }
@@ -137,7 +149,9 @@ h2{
     border-bottom: none;
 }
 /*---------------------BandLab----------------------*/
-
+.bandlab{
+    background-color: #DC3710;
+}
 .description a{
     text-decoration: none;
     color: #f5f6f7;
@@ -147,6 +161,11 @@ h2{
     color: blue;
 }
 
+/*---------------------freeletics------------------*/
+.freeletics{
+    background-color: #263238;
+}
+
 /*---------------------footer----------------------*/
 
 footer{
@@ -154,6 +173,6 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 5%;
+    height: 2%;
     background-color: #0a0a23;
 }
